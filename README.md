@@ -20,3 +20,6 @@ The script does the following, as can also be identified in the comments.
 13. merges the subject data, features data and y-labels data, in the coolData 
 14. transforms the cool data into the tidy data needed, by grouping and summarising the mean
 15. writes the tidy data set to the "tidy.txt" file
+
+
+The tidy dataset consists of the average of each variable for each activity and each subject. extracted from the merged train and test set, together with subjects and activities(textual description)
