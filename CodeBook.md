@@ -28,8 +28,17 @@ The variables in the tidy data set are:
 The names are self explanatory.
 
 
- [1] "Activity"                       
- [2] "Subject"                        
+ [1] "Activity"   
+ 
+ Textual description of the activity
+ 
+ [2] "Subject"      
+ 
+ The id of the subject that was monitored
+ 
+ The following are the averages of the original measurements for each combination of activity and subject.
+ The description of the measurements can be found in the features_info.txt file in the original dataset.
+ 
  [3] "tBodyAcc-mean()-X"              
  [4] "tBodyAcc-mean()-Y"              
  [5] "tBodyAcc-mean()-Z"              
