@@ -2,10 +2,10 @@ library(dplyr)
 
 #download data
 
-#dataURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(dataURL, "data.zip")
+dataURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(dataURL, "data.zip")
 #unzip data
-#unzip("data.zip")
+unzip("data.zip")
 
 #read features file
 flabels <- read.table("UCI\ HAR\ Dataset/features.txt", header=FALSE)
