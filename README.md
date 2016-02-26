@@ -2,6 +2,12 @@
 
 This is the submission for the Course Project 
 
+
+Interesting files are:
+- README.md 
+- CodeBook.md
+- run_analysis.R
+
 The script that does the magic is run_analysis.R
 The script does the following, as can also be identified in the comments.
 
