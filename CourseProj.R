@@ -46,4 +46,4 @@ coolData <- cbind(subject, features, labels)
 #now to make that tidy data set
 
 tidyNiceData <- coolData %>% group_by(Activity, Subject) %>% summarise_each(funs(mean))
-
+write.table(tidyNiceData, "tidy.csv")
