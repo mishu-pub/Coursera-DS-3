@@ -109,3 +109,6 @@ The names are self explanatory.
 [79] "fBodyBodyGyroJerkMag-mean()"    
 [80] "fBodyBodyGyroJerkMag-std()"     
 [81] "fBodyBodyGyroJerkMag-meanFreq()"
+
+
+
